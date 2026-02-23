@@ -1,5 +1,5 @@
 # -FPGA-Quadcopter-Flight-Controller
-The goal of this final project was to build a quadcopter flight-controller using an FPGA-based System-on-Chip architecture rather than a traditional microcontroller flight controller, enabling highly parallel, deterministic real-time control loops with lower latency and improved timing predictability. Specifically, we implemented a MicroBlaze soft processor system in Vivado and designed multiple custom AXI-Lite peripherals to interface with real-world quadcopter hardware:
+The goal of this project was to build a quadcopter flight-controller using an FPGA-based System-on-Chip architecture rather than a traditional microcontroller flight controller, enabling highly parallel, deterministic real-time control loops with lower latency and improved timing predictability. Specifically, we implemented a MicroBlaze soft processor system in Vivado and designed multiple custom AXI-Lite peripherals to interface with real-world quadcopter hardware:
 
 - Radio receiver input (FlySky receiver) for pilot commands (throttle, roll, pitch, yaw)
 
